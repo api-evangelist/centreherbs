@@ -1,19 +1,47 @@
 aid: centreherbs
-name: centreherbs
-description: centreherbs is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/centreherbs.png
+name: Centreherbs (Beijing Shengtaier Biotechnology)
+description: Centreherbs is the brand of Beijing Shengtaier Biotechnology Co., Ltd.,
+  a veterinary pharmaceutical company founded in 1999 and headquartered in the Daxing
+  Biopharmaceutical Industrial Park, Beijing, China. An integrated research, development,
+  production, and distribution organization for animal health, it specializes in veterinary
+  traditional Chinese medicine preparations, animal vaccines for poultry and livestock,
+  plant-based premixed feed additives, and pet health products, backed by four wholly-owned
+  subsidiaries and an internal biotech research institute. It is a healthcare portfolio
+  company of Qiming Venture Partners. The company operates a corporate marketing website
+  and publishes no public API, developer portal, or machine-readable specification.
 url: https://raw.githubusercontent.com/api-evangelist/centreherbs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Veterinary
+- Animal Health
+- Traditional Chinese Medicine
+- Pharmaceuticals
+- Vaccines
+- Feed Additives
+- Biotechnology
+- Healthcare
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,11 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://centreherbs.com
+  url: https://www.centreherbs.com/
+- type: DomainSecurity
+  url: security/centreherbs-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
